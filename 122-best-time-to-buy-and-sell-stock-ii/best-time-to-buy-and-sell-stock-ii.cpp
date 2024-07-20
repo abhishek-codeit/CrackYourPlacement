@@ -8,7 +8,7 @@ public:
           min_price = min(prices[i],min_price);
         //   v = max(v,prices[i]-min_price);
           if(v<prices[i]-min_price){
-            cout<<prices[i]<<" - "<<min_price<<" "<<prices[i]-min_price<<endl;
+            // cout<<prices[i]<<" - "<<min_price<<" "<<prices[i]-min_price<<endl;
             v = prices[i]-min_price;
             min_price = prices[i];
             pro+=v;
